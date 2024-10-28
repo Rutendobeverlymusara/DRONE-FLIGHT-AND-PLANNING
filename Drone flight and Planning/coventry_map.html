@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6e300af1d303a5a76cf3c9bb438dfdc9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6e300af1d303a5a76cf3c9bb438dfdc9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6e300af1d303a5a76cf3c9bb438dfdc9 = L.map(
+                "map_6e300af1d303a5a76cf3c9bb438dfdc9",
+                {
+                    center: [52.4068, -1.5197],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0561d975e4efa6b881a443566d67ea47 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6e300af1d303a5a76cf3c9bb438dfdc9);
+        
+    
+            var marker_02884d497411d031e99f94c7c9d4a41d = L.marker(
+                [52.3813073, -1.5639569481637439],
+                {}
+            ).addTo(map_6e300af1d303a5a76cf3c9bb438dfdc9);
+        
+    
+        var popup_e0475f8f05f76de1257ddd4c445ec7c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eae0befb952b2313e1c7ebd461f452f5 = $(`<div id="html_eae0befb952b2313e1c7ebd461f452f5" style="width: 100.0%; height: 100.0%;">University of Warwick, Coventry</div>`)[0];
+                popup_e0475f8f05f76de1257ddd4c445ec7c4.setContent(html_eae0befb952b2313e1c7ebd461f452f5);
+            
+        
+
+        marker_02884d497411d031e99f94c7c9d4a41d.bindPopup(popup_e0475f8f05f76de1257ddd4c445ec7c4)
+        ;
+
+        
+    
+    
+            var marker_954588f2b123e34571d38bb304da8998 = L.marker(
+                [52.4086328, -1.5070981189193933],
+                {}
+            ).addTo(map_6e300af1d303a5a76cf3c9bb438dfdc9);
+        
+    
+        var popup_e2c362c2870751aa57abb33af06d77df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3d9ec6ff77f3ac0ef838038c23d8d3e = $(`<div id="html_d3d9ec6ff77f3ac0ef838038c23d8d3e" style="width: 100.0%; height: 100.0%;">Coventry Cathedral, Coventry</div>`)[0];
+                popup_e2c362c2870751aa57abb33af06d77df.setContent(html_d3d9ec6ff77f3ac0ef838038c23d8d3e);
+            
+        
+
+        marker_954588f2b123e34571d38bb304da8998.bindPopup(popup_e2c362c2870751aa57abb33af06d77df)
+        ;
+
+        
+    
+    
+            var marker_a12fd2ceb5f5b761f19caf924f9bb568 = L.marker(
+                [52.39195275, -1.523244290759905],
+                {}
+            ).addTo(map_6e300af1d303a5a76cf3c9bb438dfdc9);
+        
+    
+        var popup_afdc29ef69aa0368c0dad72f8085c162 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56f412c90a05bad8c1699fc26cb878ca = $(`<div id="html_56f412c90a05bad8c1699fc26cb878ca" style="width: 100.0%; height: 100.0%;">War Memorial Park, Coventry</div>`)[0];
+                popup_afdc29ef69aa0368c0dad72f8085c162.setContent(html_56f412c90a05bad8c1699fc26cb878ca);
+            
+        
+
+        marker_a12fd2ceb5f5b761f19caf924f9bb568.bindPopup(popup_afdc29ef69aa0368c0dad72f8085c162)
+        ;
+
+        
+    
+    
+            var circle_marker_17dcc12291e596a17b1a338e966b2f9e = L.circleMarker(
+                [25.1851358, 55.4024981],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_6e300af1d303a5a76cf3c9bb438dfdc9);
+        
+    
+        var popup_3b5d23f8e3547f40fb6b6af81ea0bc8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dac2f2ee98e6f01eac62602456e59057 = $(`<div id="html_dac2f2ee98e6f01eac62602456e59057" style="width: 100.0%; height: 100.0%;">Location: Location 1<br>Value: 25</div>`)[0];
+                popup_3b5d23f8e3547f40fb6b6af81ea0bc8a.setContent(html_dac2f2ee98e6f01eac62602456e59057);
+            
+        
+
+        circle_marker_17dcc12291e596a17b1a338e966b2f9e.bindPopup(popup_3b5d23f8e3547f40fb6b6af81ea0bc8a)
+        ;
+
+        
+    
+    
+            var circle_marker_2408960c8fac8f25184f85f97a756c66 = L.circleMarker(
+                [25.1895154, 55.406348],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_6e300af1d303a5a76cf3c9bb438dfdc9);
+        
+    
+        var popup_b5bafffbffe70e75b299e9ccdedd9026 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a2ec54fe3b2b7d6cbf8f61569ebb3be = $(`<div id="html_4a2ec54fe3b2b7d6cbf8f61569ebb3be" style="width: 100.0%; height: 100.0%;">Location: Location 2<br>Value: 50</div>`)[0];
+                popup_b5bafffbffe70e75b299e9ccdedd9026.setContent(html_4a2ec54fe3b2b7d6cbf8f61569ebb3be);
+            
+        
+
+        circle_marker_2408960c8fac8f25184f85f97a756c66.bindPopup(popup_b5bafffbffe70e75b299e9ccdedd9026)
+        ;
+
+        
+    
+    
+            var circle_marker_7cb5e968304721eeb8dfb2fec62cfbe8 = L.circleMarker(
+                [25.2106451, 55.3753031],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_6e300af1d303a5a76cf3c9bb438dfdc9);
+        
+    
+        var popup_ec2013d48ad82f9ed7b5749d446ba84c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b11037b17413890893748f78936b007 = $(`<div id="html_9b11037b17413890893748f78936b007" style="width: 100.0%; height: 100.0%;">Location: Location 3<br>Value: 75</div>`)[0];
+                popup_ec2013d48ad82f9ed7b5749d446ba84c.setContent(html_9b11037b17413890893748f78936b007);
+            
+        
+
+        circle_marker_7cb5e968304721eeb8dfb2fec62cfbe8.bindPopup(popup_ec2013d48ad82f9ed7b5749d446ba84c)
+        ;
+
+        
+    
+    
+            var circle_marker_b6522ed9a5c96a01a7b7608669b9c9e3 = L.circleMarker(
+                [25.2704459, 55.3201548],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_6e300af1d303a5a76cf3c9bb438dfdc9);
+        
+    
+        var popup_de07f12f28818a5972321326d4c90a12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ca218229f41f903bb96a3692e050433 = $(`<div id="html_2ca218229f41f903bb96a3692e050433" style="width: 100.0%; height: 100.0%;">Location: Location 4<br>Value: 100</div>`)[0];
+                popup_de07f12f28818a5972321326d4c90a12.setContent(html_2ca218229f41f903bb96a3692e050433);
+            
+        
+
+        circle_marker_b6522ed9a5c96a01a7b7608669b9c9e3.bindPopup(popup_de07f12f28818a5972321326d4c90a12)
+        ;
+
+        
+    
+</script>
+</html>
